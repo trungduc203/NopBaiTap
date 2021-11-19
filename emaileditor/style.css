@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(255, 255, 240);
+}
+
+textarea {
+    scrollbar-3dlight-color: #C0C0C0;
+    scrollbar-shadow-color: silver;
+    scrollbar-arrow-color: black;
+    scrollbar-face-color: gray;
+    width: 80%;
+}
+
+.imgHelp {
+    background-color: #DDFFEE;
+    padding: 5px;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin-right: 15%;
+}
+
+.EmailEditor {
+    background-color: #FFFFDD;
+    border: solid #a59e9e 1px;
+}
+
+#main {
+    width: 400px;
+    background-color: #DDFFEE;
+    margin: 0px auto;
+}
+
+#help {
+    width: 500px;
+    height: 420px;
+    margin-top: 10px;
+    background-color: #cfc;
+    margin: 0px auto;
+    border: #E4E7E7 solid 2px;
+    color: #303030;
+    padding: 10px;
+}
+
+.close {
+    color: blue;
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul {
+    list-style-image: url('bullet.png');
+    list-style-position: inside;
+}
+
+li {
+    font-weight: bold;
+}
+
+.group {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.group label {
+    width: 20%;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.group button {
+    margin-right: 10px;
+}

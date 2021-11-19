@@ -1,0 +1,49 @@
+
+.navigation {
+    position: fixed;
+    margin-left: 50%;
+    text-align: center;
+  }
+
+.tablesectionOne {
+    table-layout: fixed;
+    text-align: center;
+    background-color: #FFFFDD;
+    position: fixed;
+    margin-top: 7px;
+    }
+
+.tablesectionTwo {
+    table-layout: fixed;
+    text-align: center;
+    background-color: #FFFFDD;
+    position: fixed;
+    margin-top: 7px;
+  }
+  
+.tablesectionThree {
+    table-layout: fixed;
+    text-align: center;
+    background-color: #FFFFDD;
+    position: relative;
+    margin-top: 7px;
+  }
+    
+.tablesectionFour {
+      table-layout: fixed;
+    text-align: center;
+    background-color: #FFFFDD;
+    position: fixed;
+    margin-top: 7px;
+    }
+
+.th {
+    border-style: solid;
+    border-color:  #D0D0D0;
+    empty-cells: show;
+}
+.td {
+    border-style: solid;
+    border-color:  #D0D0D0;
+    empty-cells: show;
+    }

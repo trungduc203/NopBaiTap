@@ -1,0 +1,33 @@
+
+    * {
+        text-align: justify;
+        font-size: 40px;
+    }
+    
+    .section {
+        text-align: justify;
+    }
+    
+    .sub_section {
+        text-indent: 5%;
+        text-align: justify;
+  
+    }
+    h2 {
+    text-align: left;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    }
+
+    h3 {
+    text-align: left;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    }
+    .sub_section1 {
+        text-indent: 5%;
+        text-align: justify;
+        margin-left: 150px;
+    }

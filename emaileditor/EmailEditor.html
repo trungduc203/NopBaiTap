@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+        <a href="help.html"><label class="imgHelp">HELP</label></a>
+        <div id="main">
+            <form method="post" action="status.html">
+                <h2>Compose E-Mail Message</h2>
+                <div class="group">
+                    <label>To:</label>
+                    <input required="true" type="email" name="to" class="EmailEditor">
+                </div>
+                <div class="group">
+                    <label>From:</label>
+                    <input required="true" type="email" name="from" class="EmailEditor">
+                </div>
+                <div class="group">
+                    <label>Cc:</label>
+                    <input required="true" type="email" name="cc" class="EmailEditor">
+                </div>
+                <div class="group">
+                    <label>Subject:</label>
+                    <input required="true" type="text" name="subject" class="EmailEditor">
+                </div>
+                <div class="group">
+                    <label>Message:</label>
+                    <textarea required="true" name="message" rows="5" class="EmailEditor"></textarea>
+                </div>
+                <div class="group">
+                    <label>Class:</label>
+                    <input required="true" type="text" name="class" class="EmailEditor">
+                </div>
+                <div class="group">
+                    <label></label>
+                    <!-- <a href="status.html"><button>Send</button></a> -->
+                    <button>Send</button>
+                    <button>Cancel</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</body>
+
+</html>
