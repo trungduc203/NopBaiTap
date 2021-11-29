@@ -1,0 +1,44 @@
+.panel {
+	width: 500px;
+	border: solid 1px grey;
+	padding: 5px;
+	background-color: lightblue;
+}
+.panel-heading {
+	border: solid 1px grey;
+	width: 300px;
+	padding: 1px;
+	background-color: lightgray;
+	font-size: 30px;
+    color: black;
+
+}
+.focus:focus{
+	background-color: burlywood;
+}
+.form button {
+	margin: 0 auto;
+}
+fieldset {
+	margin: 8px;
+	margin-left: 2px;
+	border: solid 1px silver;
+	border-radius: 4px;
+	padding: 8px; 
+}
+legend {
+	padding: 2px;
+}
+th {
+	background-color: #e4e4ef;
+	width: 150px;
+	text-align: left;
+}
+td {
+	background-color: #e4e4ef;
+	width: 250px;
+}
+.form {
+    background-color: lightgray;
+    text-align: center;
+}
