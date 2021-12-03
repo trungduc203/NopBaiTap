@@ -1,0 +1,84 @@
+.Container
+{
+    margin: 0 30%;
+}
+.Header
+{
+    background-color: #ffe0e0;
+    border: solid 1px #e5ac99;
+    margin-bottom: 30px; 
+}
+.Header h3
+{
+    margin: 0 10px;
+}
+.FormBox
+{
+    display: flex;
+}
+.ColorBox
+{
+    background-color: #ffe0e0;
+}
+.Top
+{
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.Top .TopText
+{
+    position: relative;
+    top: -20px;
+    background-color: white;
+    padding: 0 5px;
+    color: #426ab7;
+    width: 209px;
+}
+.FormBox
+{
+    padding: 5px 50px;
+    line-height: 25px;
+}
+.TextBox
+{
+    margin-right: 30px;
+}
+.InputBox
+{
+    width: 60%;
+}
+.InputBox input
+{
+    width: 100%;
+}
+.Bet
+{
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.Bet .TopText
+{
+    position: relative;
+    top: -20px;
+    background-color: white;
+    padding: 0 5px;
+    color: #426ab7;
+    width: 237px;
+}
+.Bot
+{
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.Bot .TopText
+{
+    position: relative;
+    top: -20px;
+    background-color: white;
+    padding: 0 5px;
+    color: #426ab7;
+    width: 115px;
+}

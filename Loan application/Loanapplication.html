@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Loan Application</title>
+    <link rel="stylesheet" href="loan.css">
+</head>
+<body>
+	<div class="Container">
+		<div class="Header">
+			<h3>
+				Loan Application Form
+			</h3>
+	    </div>
+		<div class="Main">
+			<form>
+				<div class="Top">
+					<div class="ColorBox">
+						<div class="TopText">
+							Apllicant's Personal Information
+						</div>
+						<div class="FormBox">
+							<div class="TextBox">
+								Full Name:
+								<br>
+								Date of Birth (MM/dd/yyyy):
+								<br>
+								Phone number:
+								<br>
+								Address:
+								<br>
+								ZIP code:
+							</div>
+							<div class="InputBox">
+								<input type="text" name="FullName" pattern="(.+ .*)|(.* .+)" required>
+								<br>
+								<input type="date" name="DateOfBirth" required>
+								<br>
+								<input type="text" name="PhoneNumber" pattern="[0-9].{10,}" required>
+								<br>
+								<input type="text" name="Address" required>
+								<br>
+								<input type="text" name="ZIPCode" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="Bet">
+					<div class="ColorBox">
+						<div class="TopText">
+							Apllicant's Employment Information
+						</div>
+						<div class="FormBox">
+							<div class="TextBox">
+								Current Employer:
+								<br>
+								Employer Address:
+								<br>
+								Date of Joining (MM/dd/yyyy):
+								<br>
+								Phone number:
+								<br>
+								E-mail ID:
+								<br>
+								Fax:
+								<br>
+								Designation:
+								<br>
+								Annual Income ($):
+							</div>
+							<div class="InputBox">
+								<input type="text" name="CurrentEmployer" required>
+								<br>
+								<input type="text" name="EmployerAddress" required>
+								<br>
+								<input type="date" name="DateOfJoining" required>
+								<br>
+								<input type="number" name="PhoneNumberEmployer" required>
+								<br>
+								<input type="email" name="E-mail" required>
+								<br>
+								<input type="text" name="Fax" pattern="[0-9]{3}-[0-9]{7}" required>
+								<br>
+								<input type="text" name="Designation" required>
+								<br>
+								<input type="number" name="AnnualIncome" required>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="Bot">
+					<div class="ColorBox">
+						<div class="TopText">
+							Loan Information
+						</div>
+						<div class="FormBox">
+							<div class="TextBox">
+								Loan Type:
+								<br>
+								Principal ($):
+								<br>
+								Period (Months):
+								<br>
+								Interest (%):
+							</div>
+							<div class="InputBox">
+								<select required>
+									<option selected hidden value="">Select</option>
+									<option value="Personal Loan">Personal Loan</option>
+									<option value="Home Loan">Home Loan</option>
+									<option value="Vehicle Loan">Vehicle Loan</option>
+									<option value="Business Loan">Business Loan</option>
+									<option value="Education Loan">Education Loan</option>
+								</select>
+								<input type="number" name="Principal" required>
+								<br>
+								<input type="number" name="Period" required>
+								<br>
+								<input type="number" name="Interest" required>
+							</div>
+						</div>
+						<div class="ButtonBox">
+							<center>
+								<button type="submit">Submit</button>
+								<button type="reset">Reset</button>
+							</center>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
