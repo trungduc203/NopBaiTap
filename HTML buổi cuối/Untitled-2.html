@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ôn tập HTML/CSS/JS - 60 phút - Web quản lý tin tức</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="aligh-center">
+			<div class="header">
+			<div class="logo">
+				<p>LOGO</p>
+				<h3>WEB TIN TUC</h3>
+			</div>		
+				<div class="menu">
+					<ul>
+						<li><a href="test60.html">Trang Chu</a></li>
+						<li>Tin Hoc</li>
+						<li><a href="form.html">Biet Mau</a></li>
+						<li>Khoa Hoc</li>
+						<li>Tuyen Dung</li>
+						<li>Lien He</li>
+					</ul>
+						<div class="none"><label></label>
+						</div>
+				</div>
+		</div>
+		<div class="main">
+			<div class="main-left">
+				<form method="post" onsubmit="submitData()">
+					<p>NHAP THONG TIN BAI VIET</p>
+					<div class="form">
+					<label>TIEU DE:</label>
+					</div>
+					<div class="form">
+					<input required="true" type="text" name="tieude" maxlength="200" minlength="10">
+					</div>
+					<div class="form">
+					<label>HINH ANH</label>
+					</div>
+					<div class="form">
+					<input required="true" type="text" name="hinhanh">
+					</div>
+					<div class="form">
+					<label>NOI DUNG</label>
+					</div>
+					<div class="form">
+					<textarea required="true" rows="5" maxlength="500" minlength="20"></textarea>
+					</div>
+					<div class="luu">
+						<button style="submit">LUU</button>
+						<button style="reset" class="xoa">XOA</button>
+					</div>
+				</form>
+			</div>
+			<div class="main-right">
+					<h4>BAI VIET MOI NHAT</h4>
+					<ul>
+						<li>BAI 1</li>
+						<li>BAI 2</li>
+						<li>BAI 3</li>
+						<li>BAI 4</li>
+						<li>BAI 5</li>
+					</ul>
+			</div>
+		</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function submitData(){	
+			alert("Luu thanh cong....");
+		}
+	</script>
+</body>
+</html>
